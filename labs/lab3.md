@@ -30,7 +30,8 @@ Need to get 119 MB of archives.
 
 ## Question 2
 ![Question2](../imgs/lab3q2.png)
-![Question2](../imgs/lab3q2(2).png)
+![Question2-2](../imgs/lab3q2(2).png)
+
 
 
 ## Question 3
@@ -39,6 +40,11 @@ Need to get 119 MB of archives.
 
 ## Question 4
 ![Question4](../imgs/lab3q4.png)
+![Question4-2](../imgs/lab3q4(2).png)
+![Question4-3](../imgs/lab3q4(3).png)
 
 
 ## Question 5
+![Question5](../imgs/lab3q5.png)
+![Question5-2](../imgs/lab3q5(2).png)
+![Question5-3](../imgs/lab3q5(3).png)
