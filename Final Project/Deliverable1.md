@@ -18,7 +18,7 @@ I am planning to overcome these difficulties by checking the file server require
 
 5. How do you think completing this project will help you in your career?
 
-This project will help me provide a secure file server for windows and Linux clients to share their files.
+This project will help me provide a file server for windows and Linux clients to share their files on one secured file server.
 
 **Work Cited** 
 
