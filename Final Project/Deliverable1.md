@@ -10,7 +10,7 @@ I chose this project because using a SAMBA file server enables file sharing acro
 
 1. What are the possible problems, roadblocks, or difficulties you anticipate during the process of completing the project?
 
-I want to build a fast and reliable server. In order for me to do so, I need to use a good quality hardware to avoid hardware failure. Also, I need to make sure that my file server is secure because unsecured file server is risky for the device.
+I want to build a fast and reliable server. In order for me to do so, I need to use a good quality hardware to avoid hardware failure. Also, I need to make sure that my file server is secure because unsecured file server is risky for the device and for the data.
 
 4. How are you planning to overcome these difficulties?
 
@@ -18,11 +18,11 @@ I am planning to overcome these difficulties by checking the file server require
 
 5. How do you think completing this project will help you in your career?
 
-This project will help me provide a NAS system that is highly “extensible” with value added plugin’s and access to numerous Dockers that are desirable and beneficial to home users and small businesses at little to no cost.
+This project will help me provide a secure file server for windows and Linux clients to share their files.
 
 **Work Cited** 
 
-[Source Link](https://readthedocs.org/projects/openmediavault/downloads/pdf/latest/)
+[Source Link](https://ubuntu.com/server/docs/samba-file-server)
 
 
 
