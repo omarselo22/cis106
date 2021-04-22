@@ -2,13 +2,13 @@
 
 1. Which project will you be completing?
 
-Build a file server "Openmediavault"
+Build a SAMBA file server
 
-2. Why have you chosen this project?
+1. Why have you chosen this project?
 
-I chose this project because using file servers "Openmediavault" would allow users to store personal or business files like important photos, docs, music and books. These files would be held in the file server and users would be able to have access remotely.
+I chose this project because using a SAMBA file server enables file sharing across different operating systems over a network. It lets you access your desktop files from a laptop and share files with Windows and macOS users.
 
-3. What are the possible problems, roadblocks, or difficulties you anticipate during the process of completing the project?
+1. What are the possible problems, roadblocks, or difficulties you anticipate during the process of completing the project?
 
 I want to build a fast and reliable server. In order for me to do so, I need to use a good quality hardware to avoid hardware failure. Also, I need to make sure that my file server is secure because unsecured file server is risky for the device.
 
