@@ -6,7 +6,7 @@ Build a SAMBA file server
 
 1. Why have you chosen this project?
 
-I chose this project because using a SAMBA file server enables file sharing across different operating systems over a network. It lets you access your desktop files from a laptop and share files with Windows and macOS users.
+I chose this project because using a SAMBA file server enables file sharing across different operating systems over a network. It lets me access my desktop files from a laptop and share files with Windows and macOS users.
 
 1. What are the possible problems, roadblocks, or difficulties you anticipate during the process of completing the project?
 
