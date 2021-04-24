@@ -37,7 +37,7 @@
 ![img10](../imgs/lab7/q4.1.png)
 
 ## 2,3
-![img11](../imgs/lab7/q4.2,3.png)
+![img.11](../imgs/lab7/q4.2,3.png)
 
 ## 4,5
-![img12](../imgs/lab7/q4.4,5.png)
+![img.12](../imgs/lab7/q4.4,5.png)
