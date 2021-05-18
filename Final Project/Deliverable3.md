@@ -26,18 +26,22 @@ Samba is usually installed and run on Linux. It comprises several programs that 
 ## How to Install Samba Server on Ubuntu
 
 * Samba is included in most Linux distributions. To install Samba on Ubuntu, simply run the following command in terminal.
+
 **sudo apt install samba samba-common-bin** 
 ![install.1](1.png)
 
 * To check your Samba version, run:
+
 **smbd --version**
 ![samba.version](2.png)
 
 * To check if Samba service is running, issue the following command.
+
 **systemctl status smbd nmbd**
 ![run.check](3.png)
 
 * To start these two services, issue the following command:
+
 **sudo systemctl start smbd nmbd**
 ![start](3.1.png)
 
@@ -49,10 +53,9 @@ Samba is usually installed and run on Linux. It comprises several programs that 
 * UDP 138: used for NetBIOS name service.
 
 * If you have enabled the UFW firewall on Ubuntu, then you need to open the above ports in the firewall with the following command.
+
 **sudo ufw allow samba**
 ![firewall](3.2.png)
-
-
 
 ## Create a Private Samba Share
 
@@ -61,12 +64,15 @@ In this section, we will see how to create a private Samba share that requires t
 **sudo nano /etc/samba/smb.conf**
 
 * In the **[global]** section, make sure the value of **workgroup** is the same with the **workgroup** settings of Windows computers.
+
 ![workgroup](4.png)
 
 * You can find the setting on your Windows computer by going to Control Panel > System and Security > System.
+
 ![w.group](5.png)
 
 * Then scroll down to the bottom of the file. (In nano text editor, you can achieve that by pressing CTRL+W then CTRL+V. ) Add a new section like below.
+
 [Private]
 comment = needs username and password to access
 path = /srv/samba/private/
@@ -79,38 +85,51 @@ valid users = @samba
 ## Explanation:
 
  *   **Private** is the folder name that will be displayed on the Windows network.
+  
  *   The comment is a description for the shared folder.
+
  *   The path parameter specifies the path to the shared folder. I use **/srv/samba/private/** as an example. You can also use a folder in your home directory.
+
  *   **browseable = yes:** Allow other computers in the network to see the Samba server and Samba share. If set to no, users have to know the name of the Samba server and then manually enter a path in the file manager to access the shared folder.
+
  *   **guest ok = no**: Disable guest access. In other words, you need to enter username and password on the client computer to access the shared folder.
+
  *   **writable = yes**: Grants both read and write permission to clients.
+
  *   **valid users = @samba**: Only users in the samba group are allowed to access this Samba share.
 
 * Save and close the file. (To save the file in nano text editor, press Ctrl+O, then press Enter to confirm the file name to write. To close the file, press Ctrl+X.) Now we need to create a Samba user. First, we need to create a standard Linux user account with the following command. Replace username with your desired username.
+
 __sudo adduser username__
 ![add.user](7.png)
 
 * You will be prompted to set an Unix password. After that, you also need to set a separate Samba password for the new user with the following command:
+
 **sudo smbpasswd -a username**
 ![user.pass](8.png)
  
 * Create the samba group.
+
 **sudo groupadd samba**
 ![add.group](9.png)
 
 * And add this user to the samba group.
+
 **sudo gpasswd -a username samba**
 [user-group](10.png)
 
 * Create the private share folder.
+
 **sudo mkdir -p /srv/samba/private/**
 ![p.folder](11.png)
 
 * The samba group needs to have read, write and execute permission on the shared folder. You can grant these permissions by executing the following command. (If your system doesn’t have the **setfacl** command, you need to install the **acl** package with **sudo apt install acl**.)
+
 **sudo setfacl -R -m "g:samba:rwx" /srv/samba/private/**
 ![rwx](12.png)
 
 * Next, run the following command to check if there’s syntactic errors.
+
 **testparm**
 ![errors.check](13.png)
 
@@ -193,6 +212,7 @@ guest ok = yes
 ![ubuntu.3](23.png)
 
 ## Work Cited
+
 “Install and Configure Samba.” Ubuntu, ubuntu.com/tutorials/install-and-configure-samba#1-overview. 
 
 Prakash, Abhishek, and About Abhishek PrakashCreator of It's FOSS. An ardent Linux user &amp; open source promoter. Huge fan of classic detective mysteries ranging from Agatha Christie and Sherlock Holmes to Detective Columbo &amp; Ellery Queen. Also a movie buff with a soft corner for. “Open Files &amp; Folders as Administrator in Nautilus File Manager.” It's FOSS, 8 July 2020, itsfoss.com/open-nautilus-as-administrator/. 
