@@ -193,9 +193,12 @@ guest ok = yes
 ![ubuntu.3](23.png)
 
 ## Work Cited
+“Install and Configure Samba.” Ubuntu, ubuntu.com/tutorials/install-and-configure-samba#1-overview. 
 
-[link1](https://ubuntu.com/tutorials/install-and-configure-samba#1-overview)
-[link2](https://itsfoss.com/open-nautilus-as-administrator/)
-[link3](https://www.youtube.com/watch?v=aoILd78zZE4)
-[link4](https://www.linuxbabe.com/ubuntu/install-samba-server-file-share)
+Prakash, Abhishek, and About Abhishek PrakashCreator of It's FOSS. An ardent Linux user &amp; open source promoter. Huge fan of classic detective mysteries ranging from Agatha Christie and Sherlock Holmes to Detective Columbo &amp; Ellery Queen. Also a movie buff with a soft corner for. “Open Files &amp; Folders as Administrator in Nautilus File Manager.” It's FOSS, 8 July 2020, itsfoss.com/open-nautilus-as-administrator/. 
+
+“How to Install and Configure Samba File Sharing Server in Ubuntu (Password Authentication).” YouTube, YouTube, 5 Mar. 2020, www.youtube.com/watch?v=aoILd78zZE4. 
+
+“Install and Configure Samba Server on Ubuntu for File Sharing.” LinuxBabe, 1 Apr. 2021, www.linuxbabe.com/ubuntu/install-samba-server-file-share. 
+
 
