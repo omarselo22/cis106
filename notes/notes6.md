@@ -1,29 +1,29 @@
-# Managing Data
+## Managing Data
 
-## Basic Terminology
+### Basic Terminology
 
 ![basic.ter](32.png)
 
-## Archiving Utilities
+### Archiving Utilities
 
 ![arch](33.png)
 
-## tar command
+### tar command
 
 ![tar](34.png)
 
-## cpio command
+### cpio command
 
 ![cpio](35.png)
 
-## File Compression
+### File Compression
 
 ![comp](37.png)
 ![GZIP](36.png)
 
 ![comp,decomp](38.png)
 
-# File permissions
+## File permissions
 
 ![permissions](39.png)
 

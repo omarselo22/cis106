@@ -1,51 +1,51 @@
-# Managing files and directories
+## Managing files and directories
 
-## Creating directories
+### Creating directories
 
 ![mkdir](1.png)
 
-## Creating files
+### Creating files
 
 ![touch](2.png)
 
-## Deleting files and directories
+### Deleting files and directories
 
 ![rm](3.png)
 
-## Moving files and directories
+### Moving files and directories
 
 ![mv](4.png)
 
-## Copying files and directories
+### Copying files and directories
 
 ![cp](5.png)
 
-# Working with links
+## Working with links
 
-## Inodes (index files)
+### Inodes (index files)
 
 ![stat](6.png)
 
-## Hard links
+### Hard links
 
 ![ln](7.png)
 
-## Soft links
+### Soft links
 
 ![ln-s](8.png)
 
-# Getting help 
+## Getting help 
 
 ![man](9.png)
 
-# Using Wildcards
+## Using Wildcards
 
 ![wildcards](10.png)
 ![wildcards.1](11.png)
 
 ![wildcards.2](12.png)
 
-# Using brace expansion
+## Using brace expansion
 
 ![brace](13.png)
 
